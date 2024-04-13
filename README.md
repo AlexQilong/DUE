@@ -2,7 +2,7 @@
 
 This repo is for [DUE: Dynamic Uncertainty-Aware Explanation Supervision via 3D Imputation](https://arxiv.org/abs/2403.10831) 
 
-<img src="https://github.com/AlexQilong/DUE/blob/main/assets/framework_overview.png" alt="due_overview" style="width:50%;">
+<img src="https://github.com/AlexQilong/DUE/blob/main/assets/framework_overview.png" alt="due_overview" style="width:60%;">
 
 ## Setup
 
