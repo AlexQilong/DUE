@@ -20,11 +20,11 @@ Please refer to `requirements.txt`
 
 Below are screenshots illustrating the deployment of DUE, using lung nodule classification as an example:
 
-### 1. Visual Labeling Interface
-The following screenshots showcase the interface for labeling visual annotations. Users can draw on the image and generate a binary matrix of the focus area, which is utilized for enhancing model explanation quality.
+### 1. Visual Annotation Labeling Interface
+The screenshots below display the interface for labeling visual annotations. Radiologists can annotate images by drawing on them, generating a binary matrix of the focus area. This process contributes to enhancing the quality of model explanations.
 <img src="https://github.com/AlexQilong/DUE/blob/main/assets/screenshot_cancer_1.png" style="width:80%;">
 <img src="https://github.com/AlexQilong/DUE/blob/main/assets/screenshot_cancer_2.png" style="width:80%;">
 
 ### 2. Model Selection Interface
 Here is the interface for selecting the model, where users can choose from trained model checkpoints:
-<img src="https://github.com/AlexQilong/DUE/blob/main/assets/screenshot_model_select.png" style="width:60%;">
+<img src="https://github.com/AlexQilong/DUE/blob/main/assets/screenshot_model_select.png" style="width:70%;">
