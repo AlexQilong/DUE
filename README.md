@@ -8,10 +8,23 @@ This repo is for [DUE: Dynamic Uncertainty-Aware Explanation Supervision via 3D 
 
 Please refer to `requirements.txt`
 
-## Training
+## Implementation
 
 1. Train a [diffusion model](https://github.com/voletiv/mcvd-pytorch) for slice interpolation
 2. Interpolate annotation slices repeatly using the diffusion model to estimate uncertainty 
 3. Train a [VAE](https://github.com/XiYe20/NPVP) to directly estimate uncertainty
 4. Set paths and run:   
    `python main.py --model "due" --dataset $DATASET --attention_weight 1 --seed 0`
+
+## Deployment
+
+Below are screenshots illustrating the deployment of DUE, using lung nodule classification as an example:
+
+### 1. Visual Labeling Interface
+The following screenshots showcase the interface for labeling visual annotations. Users can draw on the image and generate a binary matrix of the focus area, which is utilized for enhancing model explanation quality.
+<img src="https://github.com/AlexQilong/DUE/blob/main/assets/screenshot_cancer_1.png" style="width:80%;">
+<img src="https://github.com/AlexQilong/DUE/blob/main/assets/screenshot_cancer_2.png" style="width:80%;">
+
+### 2. Model Selection Interface
+Here is the interface for selecting the model, where users can choose from trained model checkpoints:
+<img src="https://github.com/AlexQilong/DUE/blob/main/assets/screenshot_model_select.png" style="width:60%;">
